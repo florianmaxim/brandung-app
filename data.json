@@ -1,0 +1,49 @@
+{
+    "articles" : [
+        {
+            "date": "5.12.2018",
+            "heading": "Brandung geht an die Börse",
+            "subHeading": "Geschäftsführer: 'Musst halt wissen wo du stehst.'",
+            "test": "lorem ipsum",
+            "uri": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/NYSE.jpg/230px-NYSE.jpg"
+        },
+        {
+            "date": "1.7.2018",
+            "heading": "Agentur kauft 1. FC",
+            "subHeading": "Teamleitung: Endlich eine Ziege im Büro.",
+            "test": "lorem ipsum",
+            "uri": "https://www.cebglobal.com/talentdaily/files/2017/03/office-coworkers-800x533_c.jpg"
+        },
+        {
+            "date": "1.12.2019",
+            "heading": "Hennes verpennt Finale",
+            "subHeading": "Zu seiner Verteidigung: 'Wirst halt nicht jünger.'",
+            "test": "lorem ipsum",
+            "uri": "https://image.stern.de/7785726/uncropped-0-0/f9f65a199e68013e55e33d5e793f6205/lk/hennes-viii--1-fc-koeln-spielberechtigung.jpg"
+        }
+    ],
+
+    "events" : [
+        {
+            "date": "5.12.2018",
+            "heading": "Poolparty",
+            "subHeading": "Geschäftsführer: 'Auch ich sprang erst vom Beckenrand.'",
+            "test": "lorem ipsum",
+            "uri": "http://sapsiisolucion.com/wp-content/uploads/2018/08/google-headquarters-interior-pool-office-great-indoor-pool-home-designer-pro-review.jpg"
+        },
+        {
+            "date": "1.7.2018",
+            "heading": "Einweihung Party Pool",
+            "subHeading": "Teamleitung: iPhones bleiben draußen.",
+            "test": "lorem ipsum",
+            "uri": "https://cdn.shopify.com/s/files/1/2509/3756/products/200-90-120cm-Giant-Inflatable-Unicorn-Pool-Float-2017-Newst-Ride-On-Swimming-Ring-Adult-Children_1024x1024_73d35448-273f-401b-a0c6-661afc3aca51_850x.jpg?v=1529613645"
+        },
+        {
+            "date": "1.12.2019",
+            "heading": "Plantschvergnügen",
+            "subHeading": "Alle machen mit.",
+            "test": "lorem ipsum",
+            "uri": "http://sapsiisolucion.com/wp-content/uploads/2018/08/google-headquarters-interior-pool-office-great-indoor-pool-home-designer-pro-review.jpg"
+        }
+    ]
+}

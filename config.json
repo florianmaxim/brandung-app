@@ -1,0 +1,19 @@
+{
+
+    "categories": [
+        {
+            "value": "news",
+            "caption": "Aktuelles"
+        },
+        {
+            "value": "events",
+            "caption": "Veranstaltungen"
+        }
+    ],
+
+    "articles": {
+        "more": {
+            "caption": "mehr Informationen"
+        }
+    }
+}
