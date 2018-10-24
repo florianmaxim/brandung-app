@@ -1,8 +1,134 @@
-body{
-  //margin: 0% auto;
-  background-color: white;
-  font-family: 'Arial';
+body {
+ //margin:0;
+ //width: 100vw;
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+ font-family: 'Arial';
+}
+
+.app {
+
+  width: 75vw;
   display: 'flex';
   align-items: 'center';
   justify-content: 'center';
 }
+
+.navigation-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background-image: linear-gradient(rgba(5,125,214,1), rgba(5,115,191,1));
+}
+
+.button{
+ 
+  color: rgba(50,50,50,1);
+  font-size: 2em;
+  font-weight: 'bold';
+
+  box-shadow: 0 -2.5px 2.5px rgba(0,0,0,0.125);
+
+  border:0;
+  outline:0;
+  display: flex;
+
+  
+  margin-bottom: 0;
+  margin-top: 0.70em;
+
+  margin-left: 0.45em;
+
+  cursor: pointer;
+  user-select: none;
+
+  span {
+    padding: 0.25em;
+    font-size: 0.5em;
+    font-weight: 400;
+  }
+}
+
+.heading {
+    color: rgba(0,127,215,1);
+    font-size: 20px;
+}
+
+img {
+  width: 280px;
+  height: 200px;
+  border: 3px solid rgba(0,0,0,0.125);
+}
+
+.info {
+  color: rgba(0,0,0,1);
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.info-link {
+  margin-top: 1vh;
+  color: rgba(0,0,0,1);
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media screen and (orientation:portrait){
+
+  .app {
+    width: 100vw;
+  }
+
+  img{
+    width: 25vw;
+  }
+
+  .button{
+
+    margin: 5vw;
+
+    margin-right:0;
+    margin-left: 2.5vw;
+
+    margin-bottom: 0;
+    margin-top: 5vw;
+   
+    span {
+      padding: 2.5vw;
+      font-size: 5vw;
+      font-weight: 200;
+    }
+  }
+
+  .info {
+    color: rgba(0,0,0,1);
+    font-size: 2.5vw;
+    text-decoration: none;
+  }
+
+  .info-link {
+    margin-top: 1vh;
+    color: rgba(0,0,0,1);
+    font-size: 3.5vw;
+    font-size-adjust: inherit;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .heading {
+    color: rgba(0,127,215,1);
+    font-size: 5vw;
+    font-size-adjust: inherit;
+  }
+
+  .sub-heading {
+    color: rgba(0,0,0,1);
+    font-size: 4.5vw;
+  }
+
+}
+
+

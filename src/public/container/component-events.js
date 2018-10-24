@@ -3,7 +3,9 @@ import React, {StyleSheet} from 'react';
 import {Link} from 'react-router-dom';
 
 import DATA from '../../../data.json';
-import CONFIG from '../../../config.json'
+import CONFIG from '../../../config.json';
+
+import '../styles/index.scss';
 
 export default class ModulesEvents extends React.Component {
   
@@ -33,11 +35,6 @@ export default class ModulesEvents extends React.Component {
             >
               <img 
                 src={article.uri}
-                style={{
-                  width: 125,
-                  height: 100,
-                  border: '3px solid rgba(0,0,0,0.125)'
-                }}
               />
 
               <div style={{
@@ -48,43 +45,23 @@ export default class ModulesEvents extends React.Component {
                 marginLeft: 15
               }}>
 
-                <span style={{
-                  color: 'rgba(0,0,0,1)',
-                  fontSize: 11
-                }}>
+               <span className='info'>
                 {article.date}
                 </span>
 
-                <span style={{
-                  color: 'rgba(0,127,215,1)',
-                  fontSize: 18
-                }}>
+                <span className='heading'>
                 {article.heading}
                 </span>
 
-                <span style={{
-                  color: 'rgba(0,0,0,1)',
-                  fontSize: 12
-                }}>
+                <span className='sub-heading'>
                 {article.subHeading}
                 </span>
 
                 <Link
                   to={'/'}
-                  style={{
-                    color: 'black',
-                    fontSize: 13,
-                    fontWeight: 'bold',
-                    textDecoration: 'none'
-                  }}
+                  className='info-link'
                 >
-                  <span style={{
-                    color: 'rgba(0,127,215,1)',
-                    fontSize: 15,
-                    margin: 5
-                  }}>
-                  >
-                  </span>
+                  <span className='info-link'>> </span>
                   {CONFIG.articles.more.caption}
                 </Link>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ContainerArticles from './container/component-articles';
+import ContainerNews from './container/component-news';
 import ContainerEvents from './container/component-events';
 
 import ComponentNavigation from './components/component-navigation';
@@ -31,31 +31,21 @@ class App extends React.Component {
 
   render(){
     return(
-        <div style={{
-          width: '100%',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center'
-        }}>
 
-        <div style={{
-          width: '100%',
-          maxWidth: 1000
-        }}>
+       <div className={`app`}>
         
         <ComponentNavigation/>
 
         <Switch>
           
-          <Route exact path="/" component={this.props.navigation.mode=='events'?ContainerEvents:ContainerArticles}/>
+          <Route exact path="/" component={this.props.navigation.mode=='events'?ContainerEvents:ContainerNews}/>
 
-          <Route path="/*" component={this.props.navigation.mode=='events'?ContainerEvents:ContainerArticles}/>
+          <Route path="/*" component={this.props.navigation.mode=='events'?ContainerEvents:ContainerNews}/>
 
         </Switch>
 
-       </div>
-
       </div>
+
     );
   }
 }
